@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'angular-http-server' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData angular-http-server
+8 silly fetchNamedPackageData angular-http-server
+9 silly mapToRegistry name angular-http-server
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'angular-http-server',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'angular-http-server',
+12 silly mapToRegistry   name: 'angular-http-server',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/angular-http-server
+14 verbose request uri https://registry.npmjs.org/angular-http-server
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:58:05 PM
+17 verbose request id 6448627bad2891ea
+18 verbose etag W/"5828f13d-2b2d"
+19 verbose lastModified Sun, 13 Nov 2016 23:03:25 GMT
+20 http request GET https://registry.npmjs.org/angular-http-server
+21 http 304 https://registry.npmjs.org/angular-http-server
+22 verbose headers { date: 'Mon, 13 Feb 2017 00:58:05 GMT',
+22 verbose headers   via: '1.1 varnish',
+22 verbose headers   'cache-control': 'max-age=300',
+22 verbose headers   etag: 'W/"5828f13d-2b2d"',
+22 verbose headers   age: '12',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'x-served-by': 'cache-sjc3629-SJC',
+22 verbose headers   'x-cache': 'HIT',
+22 verbose headers   'x-cache-hits': '1',
+22 verbose headers   'x-timer': 'S1486947485.854948,VS0,VE0',
+22 verbose headers   vary: 'Accept-Encoding' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Mon, 13 Feb 2017 00:58:05 GMT',
+23 silly get     via: '1.1 varnish',
+23 silly get     'cache-control': 'max-age=300',
+23 silly get     etag: 'W/"5828f13d-2b2d"',
+23 silly get     age: '12',
+23 silly get     connection: 'keep-alive',
+23 silly get     'x-served-by': 'cache-sjc3629-SJC',
+23 silly get     'x-cache': 'HIT',
+23 silly get     'x-cache-hits': '1',
+23 silly get     'x-timer': 'S1486947485.854948,VS0,VE0',
+23 silly get     vary: 'Accept-Encoding' } ]
+24 verbose etag https://registry.npmjs.org/angular-http-server from cache
+25 verbose get saving angular-http-server to /Users/SydneyYaeko/.npm/registry.npmjs.org/angular-http-server/.cache.json
+26 verbose correctMkdir /Users/SydneyYaeko/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule angular-http-server@1.0.7 checking installable status
+40 silly cache add args [ 'angular-http-server', null ]
+41 verbose cache add spec angular-http-server
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'angular-http-server',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'angular-http-server',
+42 silly cache add   name: 'angular-http-server',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed angular-http-server@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for angular-http-server
+45 info addNameTag [ 'angular-http-server', 'latest' ]
+46 silly mapToRegistry name angular-http-server
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'angular-http-server',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'angular-http-server',
+49 silly mapToRegistry   name: 'angular-http-server',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/angular-http-server
+51 verbose addNameTag registry:https://registry.npmjs.org/angular-http-server not in flight; fetching
+52 verbose get https://registry.npmjs.org/angular-http-server not expired, no request
+53 silly addNameTag next cb for angular-http-server with tag latest
+54 silly addNamed angular-http-server@1.0.7
+55 verbose addNamed "1.0.7" is a plain semver version for angular-http-server
+56 silly cache afterAdd angular-http-server@1.0.7
+57 verbose afterAdd /Users/SydneyYaeko/.npm/angular-http-server/1.0.7/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/SydneyYaeko/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/SydneyYaeko/.npm/angular-http-server/1.0.7/package/package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree lib
+62 silly currentTree └── angular-http-server@1.0.7
+63 silly idealTree lib
+63 silly idealTree └── angular-http-server@1.0.7
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 warn checkPermissions Missing write access to /usr/local/lib/node_modules/angular-http-server
+67 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+68 silly rollbackFailedOptional Starting
+69 silly rollbackFailedOptional Finishing
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules/angular-http-server'
+72 verbose stack     at Error (native)
+73 verbose cwd /Users/SydneyYaeko/Desktop/codifyacademy/02122017/codifyangularrouting
+74 error Darwin 15.6.0
+75 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "angular-http-server"
+76 error node v6.9.5
+77 error npm  v3.10.10
+78 error path /usr/local/lib/node_modules/angular-http-server
+79 error code EACCES
+80 error errno -13
+81 error syscall access
+82 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules/angular-http-server'
+82 error     at Error (native)
+82 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules/angular-http-server'
+82 error     at Error (native)
+82 error   errno: -13,
+82 error   code: 'EACCES',
+82 error   syscall: 'access',
+82 error   path: '/usr/local/lib/node_modules/angular-http-server' }
+83 error Please try running this command again as root/Administrator.
+84 verbose exit [ -13, true ]
